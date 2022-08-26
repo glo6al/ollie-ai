@@ -22,25 +22,30 @@ code {
 /* Header styling */
 .header-class{
   background-color: var(--primary-color);
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+  width: 100%;
 }
 /* Burger stying *//* Position and sizing of burger button */
 .bm-burger-button {
   position: relative;
   margin: 10px 20px 10px 20px;
-  width: 16px;
-  height: 10px;
+  width: 24px;
+  height: 24px;
   left: 36px;
-  top: 0px;
+  top: 36px;
 }
 
 /* Color/shape of burger icon bars */
 .bm-burger-bars {
-  background: #373a47;
+  background: var(--secondary-color);
 }
 
 /* Color/shape of burger icon bars on hover*/
 .bm-burger-bars-hover {
-  background: #a90000;
+  background: var(--tertiary-color);
 }
 
 /* Position and sizing of clickable cross button */
@@ -51,7 +56,7 @@ code {
 
 /* Color/shape of close button cross */
 .bm-cross {
-  background: #bdc3c7;
+  background: var(--primary-color);
 }
 
 /*
@@ -94,5 +99,17 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
 #icon{
   color: var(--secondary-color);
+  background-color: var(--primary-color);
+  height: 40px;
+  margin-left: 85%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  /* float: right; */
 }
 /* Header end */
+
+/* Dashboard styling section */
+.client{
+  width: 15rem
+}
+/* Dashboard styling end */
