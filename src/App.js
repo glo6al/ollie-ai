@@ -1,6 +1,7 @@
 import './App.css';
 import DraftInput from './components/DraftInput';
 import Dashboard from './components/Dashboard';
+import AddClient from './components/AddClient';
 import Header from './components/Header';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -9,8 +10,9 @@ function App() {
     <div className="App">
       <Header/>
       <main>
-      <Dashboard/>
-      <DraftInput></DraftInput>
+        <Dashboard/>
+        <DraftInput></DraftInput>
+        <AddClient/>
       </main>
     </div>
   );

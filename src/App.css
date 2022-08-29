@@ -19,7 +19,7 @@ Picton Blue
 	color: var(--accentColor);
 }
 
-.button {
+.button, .dropdown {
 	color: var(--background);
 	background-color: var(--accentColor);
 	font-size: 1.5rem;
